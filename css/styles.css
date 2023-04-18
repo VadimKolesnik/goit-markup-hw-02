@@ -1,6 +1,6 @@
 :root {
   /* Fonts */
-  --font-family: "Roboto";
+  --font-family: "Roboto", "Raleway", "sans serif";
   /* Colors */
   --background: #e5e5e5;
 
@@ -15,142 +15,85 @@ body {
   font-weight: 500;
 }
 
-/* дитина нащадок */
-li > a {
-  color: darkmagenta;
-}
-a {
-  color: aquamarine;
-}
-
 /* Header styles */
-.page-header {
-  background: #ffffff;
-  border-bottom: 1px solid #e7e9fc;
-  box-sizing: border-box;
-  position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
+.contact-link {
+  color: #434455;
 }
 
-.header-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  left: 347px;
-  top: 24px;
-}
-
-.logo-left {
-  width: 44px;
-  height: 21px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.header-logo {
-  width: 71px;
-  height: 21px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.header-nav-list {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  left: 347px;
-  top: 24px;
-}
-
-.header-nav-link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-}
-
-.header-nav-list .header-nav-link:hover,
-.header-nav-list .header-nav-link:focus {
-  color: #404bbf;
-}
-
-.hcontact-list .contact-link:hover,
-.contact-list .contct-link:focus {
-  color: #404bbf;
-}
-.main .button-main:hover,
-.main .button-main:focus {
-  color: #ffffff;
-}
 .contact.link {
-  position: absolute;
-  width: 151px;
-  height: 24px;
-  left: 1133px;
-  top: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-link .button-main[type="button-main"] {
+
+.logo-left {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.header-menu-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+/* Main */
+
+.main-section {
+  background: #2e2f42;
+}
+
+.main-title {
   color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 20px;
-  top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+.button-main {
+  cursor: pointer;
+  color: #ffffff;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.button-main:hover,
+.button-main:focus {
+  color: #ffffff;
 }
 
 /* About styles */
@@ -162,7 +105,7 @@ a {
   font-family: "Roboto";
   font-weight: 700;
   font-style: normal;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
@@ -172,7 +115,7 @@ a {
   font-family: "Roboto";
   font-weight: 700;
   font-style: normal;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: capitalize;
@@ -182,7 +125,7 @@ a {
   font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
@@ -193,7 +136,7 @@ a {
   font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
@@ -203,7 +146,7 @@ a {
   font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-decoration: none;
   text-transform: none;
@@ -213,7 +156,7 @@ a {
   font-family: "Roboto";
   font-weight: 400;
   font-style: normal;
-  line-height: 14px;
+  line-height: 1.166;
   letter-spacing: 0.04em;
   text-decoration: none;
   text-transform: none;
@@ -223,7 +166,7 @@ a {
   font-family: "Roboto";
   font-weight: 400;
   font-style: normal;
-  line-height: 16px;
+  line-height: 1.33;
   letter-spacing: 0.04em;
   text-decoration: underline;
   text-transform: none;
@@ -232,11 +175,6 @@ a {
 /* Footer styles */
 .page-footer {
   background: #2e2f42;
-  position: absolute;
-  width: 1440px;
-  height: 312px;
-  left: 0px;
-  top: 2280px;
 }
 .logo-left {
   color: #4d5ae5;
@@ -246,7 +184,7 @@ a {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.166;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -260,7 +198,7 @@ a {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.166;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -272,11 +210,6 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  position: absolute;
-  width: 264px;
-  height: 72px;
-  left: 156px;
-  top: 2420px;
 }
