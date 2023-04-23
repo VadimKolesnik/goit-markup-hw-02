@@ -17,8 +17,9 @@
 }
 
 body {
-  -font-family: var (-- "Raleway", "sans serif");
-  -color: var (--body-text-color);
+  -font-family: var(-- "Raleway", sans serif);
+  -color: var(--body-text-color);
+  -background-color: var(--background-color);
 }
 
 /* Header styles */
@@ -45,7 +46,7 @@ body {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -124,6 +125,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
+  text-align: center;
 }
 .doing .team-title {
   font-size: 36px;
@@ -151,7 +153,7 @@ body {
   font-family: "Roboto";
   font-weight: 400;
   font-style: normal;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   text-decoration: none;
   text-transform: none;
@@ -186,25 +188,27 @@ body {
 }
 .logo-footer {
   color: #f4f4fd;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.166;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .logo {
   color: #4d5ae5;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.166;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .footer-text {
   color: #f4f4fd;
@@ -214,4 +218,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
