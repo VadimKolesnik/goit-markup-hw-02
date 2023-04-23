@@ -1,6 +1,6 @@
 :root {
   /* Fonts */
-  --font-family: "Roboto", "Raleway", "sans serif";
+  --font-family: "Roboto", "sans serif";
   /* Colors */
   --ctas-links-color: #4d5ae5;
   --ctas-color: #404bbf;
@@ -16,9 +16,9 @@
   /* Others */
 }
 
-.body {
-  -font-family: "Roboto", "Raleway", "sans serif";
-  -color: var(--background-color);
+body {
+  -font-family: var (-- "Raleway", "sans serif");
+  -color: var (--body-text-color);
 }
 
 /* Header styles */
@@ -40,25 +40,23 @@
   color: #434455;
 }
 
-.logo-left {
+.logo-header {
+  color: #2e2f42;
   font-family: "Raleway";
-  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo {
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.166;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-.header-logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.166;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
 }
 
 .header-menu-link {
@@ -97,7 +95,7 @@
   cursor: pointer;
   color: #ffffff;
   background: #4d5ae5;
-  font-family: "Roboto";
+  font-family: var (-- font-family: inherit);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -178,7 +176,7 @@
 .button-list {
   list-style: none;
 }
-.list {
+.portfolio-list {
   list-style: none;
 }
 
@@ -186,30 +184,24 @@
 .page-footer {
   background: #2e2f42;
 }
-.logo-left {
-  color: #4d5ae5;
-  width: 44px;
-  height: 21px;
+.logo-footer {
+  color: #f4f4fd;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.166;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-logo {
-  color: #f4f4fd;
-  width: 71px;
-  height: 21px;
+.logo {
+  color: #4d5ae5;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.166;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
