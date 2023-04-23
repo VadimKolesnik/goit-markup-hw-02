@@ -117,7 +117,7 @@
 .link {
   text-decoration: none;
 }
-.text-style-header-1 {
+.main-title {
   font-size: 56px;
   font-family: "Roboto";
   font-weight: 700;
@@ -127,7 +127,7 @@
   text-decoration: none;
   text-transform: none;
 }
-.text-style-header-2 {
+.doing .team-title {
   font-size: 36px;
   font-family: "Roboto";
   font-weight: 700;
@@ -137,7 +137,7 @@
   text-decoration: none;
   text-transform: capitalize;
 }
-.text-style-header-3 {
+.header-3 {
   font-size: 20px;
   font-family: "Roboto";
   font-weight: 500;
@@ -148,28 +148,8 @@
   text-transform: none;
 }
 
-.text-style-body-medium {
+.text {
   font-size: 16px;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
-}
-.text-style-button-text {
-  font-size: 16px;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-decoration: none;
-  text-transform: none;
-}
-.text-style-small-text {
-  font-size: 12px;
   font-family: "Roboto";
   font-weight: 400;
   font-style: normal;
