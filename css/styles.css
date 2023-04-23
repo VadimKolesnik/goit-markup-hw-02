@@ -91,20 +91,20 @@ body {
   font-size: 56px;
   line-height: 1.07;
 }
-.button-main {
+.button-order {
   cursor: pointer;
   color: #ffffff;
   background: #4d5ae5;
   font-family: var (-- font-family: inherit);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.button-main:hover,
-.button-main:focus {
-  color: #404bbf;
+.button-order:hover,
+.button-order:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 /* About styles */
