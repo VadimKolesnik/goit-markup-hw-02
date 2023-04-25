@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: "Roboto", sans serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -27,7 +27,7 @@ body {
 .header-list {
   list-style: none;
 }
-.contact-list {
+.contact-lists {
   list-style: none;
 }
 .link {
@@ -42,7 +42,7 @@ body {
   color: var(--ctas-color);
 }
 
-.-address {
+.address {
   font-style: normal;
 }
 
@@ -240,6 +240,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .filer-button:hover,
