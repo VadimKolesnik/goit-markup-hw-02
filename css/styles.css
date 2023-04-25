@@ -17,9 +17,9 @@
 }
 
 body {
-  -font-family: "Roboto", "sans serif";
-  -color: #434455;
-  -background-color: #ffffff;
+  font-family: "Roboto", sans serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /* Header styles */
@@ -33,11 +33,16 @@ body {
 .link {
   text-decoration: none;
 }
-.contact-link:hover,
-.contact-link:focus {
+.contact-lists .contact-link:hover,
+.contact-lists .contact-link:focus {
   color: var(--ctas-color);
 }
-.address-list {
+.header-lists .header-menu-link:hover,
+.header-lists .header-menu-link:focus {
+  color: var(--ctas-color);
+}
+
+.-address {
   font-style: normal;
 }
 
@@ -82,6 +87,9 @@ body {
 .menu-nav-list {
   list-style: none;
 }
+.header-menu-link {
+  text-decoration: none;
+}
 /* Main */
 
 .main-section {
@@ -125,7 +133,7 @@ body {
   text-decoration: none;
 }
 
-.about-header-3 {
+.about-header {
   color: var(--overlays-color);
   font-size: 20px;
   font-family: "Roboto";
@@ -179,7 +187,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.team-header-3 {
+.team-header {
   color: var(--overlays-color);
   font-family: "Roboto";
   font-style: normal;
@@ -189,7 +197,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
-
+.team-list-card {
+  background-color: var(--background-color);
+}
 .team-body-text {
   color: var(--body-text-color);
   font-size: 16px;
@@ -197,7 +207,7 @@ body {
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -241,7 +251,7 @@ body {
 .portfolio-list {
   list-style: none;
 }
-.portfolio-link {
+.portfolio {
   text-decoration: none;
 }
 
