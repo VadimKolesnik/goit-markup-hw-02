@@ -39,8 +39,8 @@ body {
   color: var(--ctas-color);
 }
 
-.header-menu-link:hover,
-.header-mebu-link:focus {
+.header-nav-item .header-menu-link:hover,
+.header-nav-item .header-mebu-link:focus {
   color: var(--ctas-color);
 }
 
@@ -260,7 +260,7 @@ body {
   text-decoration: none;
 }
 
-.main-header {
+.about-header {
   color: var(--overlays-color);
   font-size: 20px;
   font-family: "Roboto";
