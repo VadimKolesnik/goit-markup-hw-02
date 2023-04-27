@@ -40,7 +40,7 @@ body {
 }
 
 .header-nav-item .header-menu-link:hover,
-.header-nav-item .header-mebu-link:focus {
+.header-nav-item .header-menu-link:focus {
   color: var(--ctas-color);
 }
 
