@@ -27,26 +27,27 @@ body {
 .header-list {
   list-style: none;
 }
-.contact-list {
+.address-list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
-.contact-lists .contact-link:hover,
-.contact-lists .contact-link:focus {
+
+.header-link:hover,
+.header-link:focus {
   color: var(--ctas-color);
 }
-.header-lists .header-menu-link:hover,
-.header-lists .header-menu-link:focus {
-  color: var(--ctas-color);
+
+.address .address-list {
+  color: var(--overlays-color);
 }
 
 .address {
   font-style: normal;
 }
 
-.contact-link {
+.header-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -249,10 +250,8 @@ body {
   background-color: var(--ctas-color);
 }
 
-.portfolio-list {
-  list-style: none;
-}
 .portfolio {
+  list-style: none;
   text-decoration: none;
 }
 
